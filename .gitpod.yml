@@ -3,7 +3,7 @@ ports:
   - port: 8080
     onOpen: open-preview
 tasks:
-  - command: echo "TODO ADD START TASKS"
+  - init: flutter run --web-port 8080
 vscode:
   extensions:
     - Dart-Code.flutter@3.9.1:Vg9YBnZuZPBIetUV1bObAQ==
